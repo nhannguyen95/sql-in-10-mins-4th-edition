@@ -7,7 +7,8 @@ SELECT vend_name, prod_name, prod_price
 FROM Vendors, Products
 WHERE Vendors.vend_id = Products.vend_id;
 
--- Inner join
+-- Inner join (more: this is natural join because the duplicate
+-- columns is eliminated by specifing which columns are retrieved)
 SELECT vend_name, prod_name, prod_price
 FROM Vendors INNER JOIN Products
 ON Vendors.vend_id = Products.vend_id;
