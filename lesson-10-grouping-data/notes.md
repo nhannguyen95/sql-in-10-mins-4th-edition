@@ -59,3 +59,7 @@ So, rows that are eliminated by a `WHERE` clause WILL NOT BE INCLUDED in the gro
 |`GROUP BY`|Group specification|Only if calculating aggregated by group|
 |`HAVING`|Group-level filtering|No|
 |`ORDER BY`|Output sort order|No|
+
+---
+
+If calculated fields retrieved in `SELECT` are used with `GROUP BY`, it will executed on each group.
