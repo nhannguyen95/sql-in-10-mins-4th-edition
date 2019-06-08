@@ -1,6 +1,6 @@
 You want a summary of the data in a table, not the actual data itself.
 
-Therefor, returning the actual table data would be a waste of time and processing resources. All you really want is the summary information.
+Therefore, returning the actual table data would be a waste of time and processing resources. All you really want is the summary information.
 
 To facilitate this type of retrieval, SQL features a set of 5 aggregate functions: `AVG()`, `COUNT()`, `MAX()`, `MIN()`, `SUM()`.
 
